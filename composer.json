@@ -1,0 +1,18 @@
+{
+    "name": "schema31/php-gcloud-storage-sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Antonio Turdo",
+            "email": "aturdo@schema31.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Schema31\\GCloudStorageSDK\\": "src/"
+        }
+    },	
+    "require": {
+        "pear/http_request2": "^2.3"
+    }
+}
