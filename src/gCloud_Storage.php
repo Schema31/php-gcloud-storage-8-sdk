@@ -5,7 +5,7 @@ namespace Schema31\GCloudStorageSDK;
 /**
  * Classe per interagire con l'API REST di gCloud Storage
  *
- * @version 1.1.44
+ * @version 1.1.45
  * @package GCloud-SDK-PHP
  */
 /**
@@ -27,7 +27,7 @@ class gCloud_Storage {
      * @var string
      * @access public
      */
-    const VERSION = "gCloud_Storage 1.1.44 [Composer]";
+    const VERSION = "gCloud_Storage 1.1.45 [Composer]";
 
     /**
      * Mime-type standard da utilizzare quando non specificato
@@ -241,7 +241,7 @@ class gCloud_Storage {
 
                     break;
                 }
-            } catch (Exception $e) {
+            } catch (\Exception $e) {
 
                 /*
                  *  catch eccezione - prova ad eseguire nuovamente l'operazione richiesta
