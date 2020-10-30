@@ -152,7 +152,8 @@ class gCloud_Storage {
         /*
          *  se la configurazione prevede un 'max_execution_time' minore di 'SCRIPT_TIMEOUT', usa 'SCRIPT_TIMEOUT'
          */
-        if (ini_get('max_execution_time') < self::SCRIPT_TIMEOUT) {
+        $maxExecutionTime = ini_get('max_execution_time');
+        if ($maxExecutionTime > 0 && $maxExecutionTime < self::SCRIPT_TIMEOUT) {
             ini_set("max_execution_time", self::SCRIPT_TIMEOUT);
         }
         
