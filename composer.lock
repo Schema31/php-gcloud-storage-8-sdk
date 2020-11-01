@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2fae53f9189863bdc1908d96c5e4402",
+    "content-hash": "cd995ef5eb348b4f7f0656a93e88fb89",
     "packages": [
         {
             "name": "pear/http_request2",
@@ -192,5 +192,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
