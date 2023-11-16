@@ -1,8 +1,12 @@
-# php-gcloud-storage-sdk
+# php-gcloud-storage-8-sdk
 
 Classe PHP per l'interazione con gCloud Storage
 
 Attualmente implementa i metodi: sendFile(), sendMultipleFiles(), detailFile(), getFile(), streamFile(), deleteFile() e getShortUrl().
+
+### Requisiti
+
+- PHP 8.0 o versione successiva
 
 ### Referenza d'uso:
 

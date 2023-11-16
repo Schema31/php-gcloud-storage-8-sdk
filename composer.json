@@ -1,18 +1,27 @@
 {
-    "name": "schema31/php-gcloud-storage-sdk",
+    "name": "schema31/php-gcloud-storage-8-sdk",
     "type": "library",
     "authors": [
         {
             "name": "Antonio Turdo",
             "email": "aturdo@schema31.it"
+        },
+        {
+            "name": "Gabriele Orlando",
+            "email": "gorlando@schema31.it"
         }
     ],
     "autoload": {
         "psr-4": {
             "Schema31\\GCloudStorageSDK\\": "src/"
         }
-    },	
+    },
     "require": {
-        "pear/http_request2": "<=2.3.0"
+        "pear/http_request2": "^2.4.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.0"
+        }
     }
 }
